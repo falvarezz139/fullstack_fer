@@ -16,7 +16,7 @@ const App = () => {
     });
   }, []);
 
-  const handleAppPerson = (event) => {
+  const handleAddPerson = (event) => {
     event.preventDefault();
 
     if (!newName.trim() || !newNumber.trim()) {
@@ -97,7 +97,7 @@ const App = () => {
         number={newNumber}
         handleNameChange={setNewName}
         handleNumberChange={setNewNumber}
-        addPerson={handleAppPerson}
+        addPerson={handleAddPerson}
       />
 
       <h3>Numbers</h3>
