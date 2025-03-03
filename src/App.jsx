@@ -99,7 +99,6 @@ const App = () => {
         handleNumberChange={setNewNumber}
         addPerson={handleAddPerson}
       />
-
       <h3>Numbers</h3>
       <Persons
         persons={personsToShow}
